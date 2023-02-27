@@ -8,10 +8,10 @@ if (hour<12) {
     colour = "#8aff67";
 } else if (hour<17) {
     greeting = "Good afternoon"
-    colour = "#fffc67";
+    colour = "#9f0ccc";
 }else {
     greeting = "Good evening"
-    colour = "#4a88cf";
+    colour = "#cc5f0c";
 }
 salute.innerHTML = greeting;
 somepart.style.backgroundColor = colour;
